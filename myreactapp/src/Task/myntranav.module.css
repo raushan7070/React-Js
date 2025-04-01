@@ -1,0 +1,88 @@
+/* #box{
+    height: 30px;
+    width: 150;
+    border: 1px solid black;
+    background-color: #1ba5dc;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1px 2px;
+    position: sticky;
+    color: black;
+}  */
+
+
+/* myntranav.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2874F0;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logoLink {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+  }
+  
+  .searchContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchInput {
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    width: 300px;
+  }
+  
+  .searchButton {
+    padding: 8px 16px;
+    margin-left: 8px;
+    background-color: #FF3F6C;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .userActions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartLink {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    
+  }
+  

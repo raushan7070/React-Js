@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import{createRoot } from "react-dom/client" ;
 import App from "./App";
+import "./global.css"
 
 let div = document.getElementById("root")
 
@@ -20,7 +21,7 @@ let div = document.getElementById("root")
 //   );
 
 //createRoot(div).render(App()); js rule call
-createRoot(div).render(<App></App>);  //React rule call
+createRoot(div).render(<App/>);  //React rule call
 
   //! Fragments are used to wrap other elements as a parent element without creating an extra node
   //Way1-> <> </>
